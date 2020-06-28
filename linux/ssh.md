@@ -1,7 +1,5 @@
 # SSH
 
-{{TOC}}
-
 ## Create a key pair
 
 ```
@@ -43,5 +41,6 @@ install docker and then add user to docker group on build box
 ```
 
 [[linux.md]]
+
 
 
