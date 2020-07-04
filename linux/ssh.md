@@ -1,9 +1,37 @@
 # SSH
 
 ## Create a key pair
-
 ```
 ssh-keygen -t rsa -b 4096
+```
+
+## Save to SSH config
+[Original source](https://www.freecodecamp.org/news/how-to-manage-multiple-ssh-keys/)
+```dotnetcli
+# create the config file
+nano ~/.ssh/config
+```
+```
+# add config sections for each site with location of key
+Host mygithub
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/_id_rsa
+  IdentitiesOnly yes
+```
+```dotnetcli
+# add key password to macos keychain
+ssh-add -K ~/.ssh/id_rsa
+
+# ensure ssh-agent is devoid of previous keys
+ssh-add -l
+ssh-add -D
+```
+```
+# make sure config states passwords are in keychain
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
 ```
 
 ## Cache credentials locally
