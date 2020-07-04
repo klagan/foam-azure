@@ -47,6 +47,16 @@ ssh-add
 ssh-add -l
 ```
 
+## Create user
+```
+useradd kam
+```
+
+## Creatye password for user
+```
+passwd kam
+```
+
 ## Add key to remote machine
 ```
 ssh-copy-id -i ~/.ssh/id_rsa.pub klagan@000.111.222.333 -p 22
