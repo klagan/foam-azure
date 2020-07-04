@@ -47,12 +47,13 @@ ssh-add
 ssh-add -l
 ```
 
+[user help](https://www.lifewire.com/create-users-useradd-command-3572157)
 ## Create user
 ```
 useradd kam
 ```
 
-## Creatye password for user
+## Create password for user
 ```
 passwd kam
 ```
