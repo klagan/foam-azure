@@ -1,5 +1,8 @@
 # jq
 
+- [help 1](https://zerokspot.com/weblog/2013/07/18/processing-json-with-jq/)
+* [help 2](https://www.howtogeek.com/529219/how-to-parse-json-files-on-the-linux-command-line-with-jq/)
+
 Run `jq` against a file: `jq '.' <filename>`
 Run `jq` against a variable: `jq '.' <<< <my-variable>`
 
