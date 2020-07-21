@@ -23,5 +23,11 @@ az provider show --namespace Microsoft.Storage --query "resourceTypes[*].resourc
 az resource list --resource-type Microsoft.Storage/storageAccounts
 ```
 
+### List resources by specific fields (tsv output is not guaranteed order)
+
+```
+az resource list --query '[].{name:name, resourceGroup:resourceGroup, location:location, type:type, status:status}' --output tsv
+```
+
 ---
 [[az-cli.md]]
