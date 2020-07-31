@@ -14,6 +14,7 @@
 * [help](https://github.com/MicrosoftDocs/azure-docs/tree/master/articles)
 * [Azure address lists](https://docs.microsoft.com/en-us/azure/devops/organizations/security/allow-list-ip-url?view=azure-devops)
 * [Azure VNet Routing](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview?source=docs)
+* [Azure IPs](https://www.microsoft.com/en-us/download/details.aspx?id=56519)
 
 For up-to-date tips, see [Foam Recipes](https://foambubble.github.io/foam/recipes).
 
