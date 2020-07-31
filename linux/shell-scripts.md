@@ -1,4 +1,4 @@
-# Shell Scripts
+# Bash
 
 ## Begin the script with:
 ```
@@ -31,6 +31,16 @@ maxWait=${1:-120000}
 ### Display the provided parameters
 ```
 echo $*
+```
+
+## Alias
+```
+alias ls='ls -ahl --color'
+```
+
+## Reload .bashrc
+```
+source ~/.bashrc
 ```
 
 [[linux.md]]
