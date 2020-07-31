@@ -79,7 +79,46 @@ install docker and then add user to docker group on build box
  sudo usermod -a -G docker klagan
 ```
 
+## Copy file from client to remote
+
+[Source](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/copy-files-to-linux-vm-using-scp)
+
+Upload from client to ssh remote: `scp kam.txt azureuser@azurehost:uploads`
+
+Download from ssh remote to client: `scp azureuser@azurehost:uploads/file targetfile`
+
+## Install Java
+
+[Source](https://linux4one.com/how-to-install-java-on-ubuntu-18-04/#5_Setting_up_default_Java_Version)
+
+## Shutdown/Reboot
+
+[Source](https://www.lifewire.com/reboot-linux-using-command-line-4032621)
+
+`sudo shutdown --reboot now`
+
+---
+
+## Troubleshooting
+
+```
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0666 for '/Users/someone/.ssh/key-file.pem' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "/Users/someone/.ssh/key-file.pem": bad permissions
+```
+
+[Source](https://www.howtogeek.com/168119/fixing-warning-unprotected-private-key-file-on-linux/)
+
+As the message says, the file permissions are too open.
+
+```bash
+sudo chmod 600 ~/.ssh/pneuron-svr_key.pem
+sudo chmod 644 ~/.ssh/known_hosts
+sudo chmod 755 ~/.ssh
+```
+
 [[linux.md]]
-
-
-
