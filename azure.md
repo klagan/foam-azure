@@ -11,9 +11,9 @@
 - That's ok, you can just delete them!
   - You can always find them in your git history, if you really need it!
 
-![help](https://github.com/MicrosoftDocs/azure-docs/tree/master/articles)
-[Azure address lists](https://docs.microsoft.com/en-us/azure/devops/organizations/security/allow-list-ip-url?view=azure-devops)
-[Azure VNet Routing](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview?source=docs)
+* [help](https://github.com/MicrosoftDocs/azure-docs/tree/master/articles)
+* [Azure address lists](https://docs.microsoft.com/en-us/azure/devops/organizations/security/allow-list-ip-url?view=azure-devops)
+* [Azure VNet Routing](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview?source=docs)
 
 For up-to-date tips, see [Foam Recipes](https://foambubble.github.io/foam/recipes).
 
