@@ -1,4 +1,4 @@
-# Linux j
+# Linux
 
 This sample contains loops, json manipulation and `az` command
 
