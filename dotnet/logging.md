@@ -28,13 +28,7 @@ This code snippet shows how to set up the bootstrap host builder with platform s
                 webBuilder.ConfigureKestrel((context, options) =>
                     {
                         options.Limits.MaxConcurrentConnections = 100;
-                        options.Limits.MaxConcurrentUpgradedConnections = 100;
-                        options.Limits.MaxRequestBodySize = null;
-                        options.Limits.MinRequestBodyDataRate =
-                            new MinDataRate(100, TimeSpan.FromSeconds(30));
-                        options.Limits.MinResponseDataRate =
-                            new MinDataRate(100, TimeSpan.FromSeconds(30));
-                    })
+                     })
                 .UseStartup<Startup>();
             });
     }
