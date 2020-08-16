@@ -17,7 +17,7 @@ docker rmi $(docker images -f "dangling=true" -q)
 simpler command
 
 ```
-docker system prune -a
+docker system prune
 ```
 
 [[dotnet.md]]
