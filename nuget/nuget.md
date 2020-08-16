@@ -87,5 +87,6 @@ This now means we are in a position to call the `docker build` command which wil
 `docker build -t my_image:version --build-arg nugetUid --build-arg nugetPwd .`
 
 
+To summarise, this allows us to configure the nuget feed in a file which we can commit to a repository safely.  The values can then be injected from a secured host.
 
 [[dotnet.md]]
