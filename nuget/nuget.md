@@ -39,7 +39,7 @@ assured they will be used **in** the solution but not committed to the repositor
 </packageSourceCredentials>
 ```
 
-### Package fee credentials in Docker 
+### Package feed credentials in Docker 
 
 [(source)](https://github.com/dotnet/dotnet-docker/blob/master/documentation/scenarios/nuget-credentials.md)
 
