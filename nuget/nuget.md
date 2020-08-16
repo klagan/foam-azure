@@ -43,7 +43,7 @@ assured they will be used **in** the solution but not committed to the repositor
 
 [(source)](https://github.com/dotnet/dotnet-docker/blob/master/documentation/scenarios/nuget-credentials.md)
 
-There is an additional complexity when configuring a build process in a docker environment.  THe environment has no access to your local nuget.config so it cant reach the credentials we set up on the local host machine (above).
+There is an additional complexity when configuring a build process in a docker environment.  The environment has no access to your local nuget.config so it cant reach the credentials we set up on the local host machine (above).
 
 What we need to do is add this configuration into the image `nuget.config` and pass the user name and password as parameters.
 
