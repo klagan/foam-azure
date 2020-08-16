@@ -1,6 +1,6 @@
 # Nuget 
 
-[Source](https://docs.microsoft.com/en-us/nuget/reference/nuget-config-file#packagesourcecredentials)
+[(source)](https://docs.microsoft.com/en-us/nuget/reference/nuget-config-file#packagesourcecredentials)
 
 In a dot net project, we can store the package feeds in the solution by using a `nuget.config` file like this:
 
@@ -39,7 +39,9 @@ assured they will be used **in** the solution but not committed to the repositor
 </packageSourceCredentials>
 ```
 
-### Package fee credentials in Docker [source](https://github.com/dotnet/dotnet-docker/blob/master/documentation/scenarios/nuget-credentials.md)
+### Package fee credentials in Docker 
+
+[(source)](https://github.com/dotnet/dotnet-docker/blob/master/documentation/scenarios/nuget-credentials.md)
 
 There is an additional complexity when configuring a build process in a docker environment.  THe environment has no access to your local nuget.config so it cant reach the credentials we set up on the local host machine (above).
 
