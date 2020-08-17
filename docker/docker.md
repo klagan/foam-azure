@@ -1,6 +1,6 @@
 # Docker
 
-`Dangling` images or containers are essentially **unused** comages or containers.  We can periodically remove them to save on disk space and provide easier management of images and containers by removing this noise.
+`Dangling` images or containers are essentially **unused** images or containers.  We can periodically remove them to save on disk space and provide easier management of images and containers by removing this noise.  (remember to remove the containers *before* the images)
 
 ## Delete dangling containers
 
