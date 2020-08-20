@@ -116,7 +116,7 @@ Load key "/Users/someone/.ssh/key-file.pem": bad permissions
 As the message says, the file permissions are too open.
 
 ```bash
-sudo chmod 600 ~/.ssh/pneuron-svr_key.pem
+sudo chmod 600 ~/.ssh/my_key.pem
 sudo chmod 644 ~/.ssh/known_hosts
 sudo chmod 755 ~/.ssh
 ```
