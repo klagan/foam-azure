@@ -6,7 +6,7 @@ ssh-keygen -t rsa -b 4096
 ```
 
 ## Save to SSH config
-[Original source](https://www.freecodecamp.org/news/how-to-manage-multiple-ssh-keys/)
+[Source](https://www.freecodecamp.org/news/how-to-manage-multiple-ssh-keys/)
 ```dotnetcli
 # create the config file
 nano ~/.ssh/config
@@ -98,6 +98,8 @@ Download from ssh remote to client: `scp azureuser@azurehost:uploads/file target
 `sudo shutdown --reboot now`
 
 ## CLI WIFI configuration
+
+[Source](https://askubuntu.com/questions/461825/how-to-connect-to-wifi-from-the-command-line#461831)
 
 Be sure to install `network manager` package. Try running, `nmcli c`.  If the package is installed it will list the saved WIFI connections.  If it doesnt exist it will prompt the package manager command to install.
 
