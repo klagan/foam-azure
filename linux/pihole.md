@@ -9,4 +9,12 @@ sudo systemctl disable systemd-resolved.service
 sudo systemctl stop systemd-resolved
 ```
 
-[[linux.md]]
+
+
+## Change password
+
+`pihole -a -p`
+
+or if running in docker:
+
+`docker exec -it <name of container> pihole -a -p`
