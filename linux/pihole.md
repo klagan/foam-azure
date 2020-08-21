@@ -15,3 +15,7 @@ sudo systemctl stop systemd-resolved
 or if running in docker:
 
 `docker exec -it <name of container> pihole -a -p`
+
+## Ad lists
+
+`https://firebog.net/`
