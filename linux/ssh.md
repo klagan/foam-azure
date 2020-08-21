@@ -97,6 +97,12 @@ Download from ssh remote to client: `scp azureuser@azurehost:uploads/file target
 
 `sudo shutdown --reboot now`
 
+## CLI WIFI configuration
+
+Be sure to install `network manager` package. Try running, `nmcli c`.  If the package is installed it will list the saved WIFI connections.  If it doesnt exist it will prompt the package manager command to install.
+
+`nmtui` brings up a nice CLI GUI to manage the WIFI connections
+
 ---
 
 ## Troubleshooting
