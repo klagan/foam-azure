@@ -1,5 +1,9 @@
 # Linux
 
+**get linux distro/version**
+
+`cat /etc/*-release`
+
 This sample contains loops, json manipulation and `az` command
 
 **example json parameter**
