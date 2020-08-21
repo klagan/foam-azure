@@ -7,3 +7,5 @@ I just disabled the service to make it work.  Luckily I dont have enough knowled
 sudo systemctl disable systemd-resolved.service
 sudo systemctl stop systemd-resolved
 ```
+
+[[linux.md]]
