@@ -4,6 +4,22 @@
 
 `cat /etc/*-release`
 
+**add to environment path**
+
+[Source](https://www.cyberciti.biz/faq/appleosx-bash-unix-change-set-path-environment-variable/)
+
+**option 1**
+
+```
+edit .bash_profile/.bashrc and add this line where '~/.kam' is the new folder to add to path 
+```
+
+**option 2**
+
+```
+export PATH=$PATH:~/.kam
+```
+
 This sample contains loops, json manipulation and `az` command
 
 **example json parameter**
