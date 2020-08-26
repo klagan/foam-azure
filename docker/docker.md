@@ -20,4 +20,23 @@ simpler command
 docker system prune
 ```
 
+## Copy a file from container to host
+
+```
+docker cp <containerId>:/file/path/within/container /host/path/target
+```
+
+# Copy a file from host to container
+
+```
+docker cp my.file <containerId>:/home/dir1
+```
+
+## Execute a command in the container
+
+```
+docker exec -it <containerId/name> ls
+```
+
+
 [[dotnet.md]]
