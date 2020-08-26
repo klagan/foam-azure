@@ -26,7 +26,7 @@ docker system prune
 docker cp <containerId>:/file/path/within/container /host/path/target
 ```
 
-# Copy a file from host to container
+## Copy a file from host to container
 
 ```
 docker cp my.file <containerId>:/home/dir1
