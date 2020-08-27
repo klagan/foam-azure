@@ -109,6 +109,8 @@ Be sure to install `network manager` package. Try running, `nmcli c`.  If the pa
 
 ## Troubleshooting
 
+### Unprotected private key file
+
 ```
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
@@ -128,5 +130,23 @@ sudo chmod 600 ~/.ssh/my_key.pem
 sudo chmod 644 ~/.ssh/known_hosts
 sudo chmod 755 ~/.ssh
 ```
+
+### no host keys available - exiting
+
+You can find this error by running `sshd -t`.  This command can reveal errors in the service.
+
+Assuming you have the correct authority:
+
+```
+ssh-keygen -A
+```
+
+then you can start the service:
+
+```
+/etc/init.d/ssh start
+```
+
+
 
 [[linux.md]]
