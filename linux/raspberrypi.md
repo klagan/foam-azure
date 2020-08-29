@@ -9,3 +9,9 @@ run this command:
 `cat /proc/cpuinfo`
 
 then check the details against the table in the source
+
+## edit raspbian options
+
+```
+sudo raspi-config
+```
