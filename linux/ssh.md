@@ -101,7 +101,7 @@ Download from ssh remote to client: `scp azureuser@azurehost:uploads/file target
 
 [Source](https://askubuntu.com/questions/461825/how-to-connect-to-wifi-from-the-command-line#461831)
 
-Be sure to install `network manager` package. Try running, `nmcli c`.  If the package is installed it will list the saved WIFI connections.  If it doesnt exist it will prompt the package manager command to install.
+Be sure to `sudo apt install network-manager` package. Try running, `nmcli c` to view current network configuration.  If the package is installed it will list the saved WIFI connections.  If it doesnt exist it will prompt the package manager command to install.
 
 `nmtui` brings up a nice CLI GUI to manage the WIFI connections
 
