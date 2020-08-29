@@ -37,11 +37,15 @@ export PATH=$PATH:~/.kam
 
 Be sure to `sudo apt install network-manager` package. Try running, `nmcli c` to view current network configuration.  If the package is installed it will list the saved WIFI connections.  If it doesnt exist it will prompt the package manager command to install.
 
-`nmtui` brings up a nice CLI GUI to manage the WIFI connections
+`nmtu` brings up a nice CLI GUI to manage the WIFI connections
 
-## List WIFI 
+## List WIFI 
 
-`sudo iwlist wlan0 scan`
+```
+sudo iwlist wlan0 scan
+```
+
+---
 
 
 ## Structures
