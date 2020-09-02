@@ -38,5 +38,12 @@ docker cp my.file <containerId>:/home/dir1
 docker exec -it <containerId/name> ls
 ```
 
+## Filter docker images by repository/name
+
+dont forget the forward slash for multi part names. `bit*` is not the same as `bit*`*`
+
+```
+docker images --filter=reference='bit*/*:*'
+```
 
 [[dotnet.md]]
