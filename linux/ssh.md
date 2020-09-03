@@ -48,27 +48,12 @@ ssh-add -l
 ```
 
 [user help](https://www.lifewire.com/create-users-useradd-command-3572157)
-## Create user
-```
-useradd kam
-```
-
-## Create password for user
-```
-passwd kam
-```
 
 ## Add key to remote machine
 ```
 ssh-copy-id -i ~/.ssh/id_rsa.pub klagan@000.111.222.333 -p 22
 ```
 > [source](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop)
-
-
-install docker and then add user to docker group on build box
-```
- sudo usermod -a -G docker klagan
-```
 
 ## Copy file from client to remote
 
@@ -84,6 +69,15 @@ scp kam.txt azureuser@azurehost:uploads
 
 ```
 scp azureuser@azurehost:uploads/file targetfile
+```
+
+**Disable/Enable cleartext password authentication**
+
+```
+sudo vi /etc/ssh/sshd_config
+
+<PasswordAuthentication yes/no>
+
 ```
 
 ---
