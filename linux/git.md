@@ -1,30 +1,39 @@
 # git
 
-### List the configuration settings
+### list the configuration settings
 ```
 git config --list
 ```
 
-## Check your name
+## check your name
 ```
 git config user.name
 ```
 
-## Set your name
+## set your name
 ```
 git config --global user.name "Kam Lagan"
 ```
 
-## Read git configuration (~/.gitconfig)
+## read git configuration (~/.gitconfig)
 ```
 git config -l
 ```
 
-## Get machine information
+# list all branches
+
 ```
-sudo lshw
+git branch -a
 ```
-> [source] (https://vitux.com/get-linux-system-and-hardware-details-on-the-command-line/)
+
+# switch to remote branch (locally)
+
+```
+git fetch
+
+git checkout -t <remote_name>/<branch_name>
+```
+
 
 [[linux.md]]
 
