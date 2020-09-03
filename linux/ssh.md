@@ -78,6 +78,8 @@ sudo vi /etc/ssh/sshd_config
 
 <PasswordAuthentication yes/no>
 
+sudo service ssh restart
+
 ```
 
 ---
