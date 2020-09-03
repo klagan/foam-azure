@@ -45,7 +45,13 @@ Be sure to `sudo apt install network-manager` package. Try running, `nmcli c` to
 sudo iwlist wlan0 scan
 ```
 
+## change item owner
 
+[Source](https://medium.com/codebase/unable-to-obtain-lock-file-access-dotnet-cli-3bd313a5009c)
+
+```
+sudo chown -R klagan:klagan ~/.nuget
+```
 
 ## get machine information
 
