@@ -4,6 +4,8 @@
 
 `cat /etc/*-release`
 
+`uname --help`
+
 **add to environment path**
 
 [Source](https://www.cyberciti.biz/faq/appleosx-bash-unix-change-set-path-environment-variable/)
