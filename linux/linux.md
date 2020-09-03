@@ -56,4 +56,6 @@ sudo lshw
 > [source](https://vitux.com/get-linux-system-and-hardware-details-on-the-command-line/)
 
 
+[[linux.md]]
+
 
