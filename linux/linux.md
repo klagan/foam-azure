@@ -45,6 +45,17 @@ Be sure to `sudo apt install network-manager` package. Try running, `nmcli c` to
 sudo iwlist wlan0 scan
 ```
 
+
+
+## get machine information
+
+```
+sudo lshw
+```
+
+> [source] (https://vitux.com/get-linux-system-and-hardware-details-on-the-command-line/)
+
+
 ---
 
 
