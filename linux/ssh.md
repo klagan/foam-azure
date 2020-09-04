@@ -59,13 +59,13 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub klagan@000.111.222.333 -p 22
 
 [Source](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/copy-files-to-linux-vm-using-scp)
 
-**Upload from client to ssh remote: **
+**Upload from client to ssh remote:**
 
 ```
 scp kam.txt azureuser@azurehost:uploads
 ```
 
-**Download from ssh remote to client: **
+**Download from ssh remote to client:**
 
 ```
 scp azureuser@azurehost:uploads/file targetfile
