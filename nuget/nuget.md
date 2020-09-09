@@ -71,20 +71,20 @@ First, we edit our `nuget.config` associated with the project:
 Second, edit the `dockerfile` to accept the arguments from the command line:
 
 ```
-ARG nugetUid
-ARG nugetPwd
+ARG NUGET_UID
+ARG NUGET_PWD
 ```
 
 Thirdly, we set up the local host credentials in environment variables (Im an Apple Mac user so you will need to look up the Windows equivalents):
 
 ```
-export nugetUid=someone@somwehere.com
-export nugetPwd=my-secret-password/PAT
+export NUGET_UID=someone@somwehere.com
+export NUGET_PWD=my-secret-password/PAT
 ```
 
 This now means we are in a position to call the `docker build` command which will pull the nuget values in from the local host environment variables and push them into the dockerfile which will replace the placeholders we put in the `nuget.config` file!
 
-`docker build -t my_image:version --build-arg nugetUid --build-arg nugetPwd .`
+`docker build -t my_image:version --build-arg NUGET_UID --build-arg NUGET_PWD .`
 
 
 To summarise, this allows us to configure the nuget feed in a file which we can commit to a repository safely.  The values can then be injected from a secured host.
