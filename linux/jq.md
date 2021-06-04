@@ -105,6 +105,13 @@ jq length <file>
 jq length <<< $variable
 ```
 
+## Pipe in a command to `jq`
+
+```
+# get health logs from a docker container
+docker inspect coreapi | jq '.[].State.Health' 
+```
+
 [[linux.md]]
 
 
