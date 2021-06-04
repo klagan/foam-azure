@@ -109,7 +109,7 @@ jq length <<< $variable
 
 ```
 # get health logs from a docker container
-docker inspect coreapi | jq '.[].State.Health' 
+docker inspect mycontainer | jq '.[].State.Health' 
 ```
 
 [[linux.md]]
