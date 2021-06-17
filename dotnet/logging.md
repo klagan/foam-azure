@@ -1,6 +1,8 @@
 # Logging
 
-This code snippet shows how to set up the bootstrap host builder with platform services.
+This code snippet shows how to set up the bootstrap host builder with platform services. 
+
+> remember: include [Serilog package](https://github.com/serilog/serilog-extensions-logging-file)
 
 ```dotnet
     public static IHostBuilder CreateHostBuilder(
